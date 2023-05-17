@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartIT.Infrastructure", "Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkIT.Api", "ParkIT.Api\ParkIT.Api.csproj", "{2AE85CC2-0A78-4B05-9CBD-2BAD9A5E8339}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkIT.Shared.Abstractions", "ParkIT.Shared.Abstractions\ParkIT.Shared.Abstractions.csproj", "{07E9858A-8A78-43F0-AB61-3221BDA44565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkIT.Shared", "ParkIT.Shared\ParkIT.Shared.csproj", "{8DC026CA-5FE1-4B48-9E3F-C728E2ACFA22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{2AE85CC2-0A78-4B05-9CBD-2BAD9A5E8339}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AE85CC2-0A78-4B05-9CBD-2BAD9A5E8339}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AE85CC2-0A78-4B05-9CBD-2BAD9A5E8339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E9858A-8A78-43F0-AB61-3221BDA44565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E9858A-8A78-43F0-AB61-3221BDA44565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E9858A-8A78-43F0-AB61-3221BDA44565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E9858A-8A78-43F0-AB61-3221BDA44565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC026CA-5FE1-4B48-9E3F-C728E2ACFA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC026CA-5FE1-4B48-9E3F-C728E2ACFA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC026CA-5FE1-4B48-9E3F-C728E2ACFA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC026CA-5FE1-4B48-9E3F-C728E2ACFA22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

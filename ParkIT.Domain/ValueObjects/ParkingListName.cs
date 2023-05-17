@@ -1,14 +1,25 @@
-namespace ParkIT.Domain.ValueObjects;
+using ParkIT.Domain.Exceptions;
 
-public class ParkingListName
+namespace PackIT.Domain.ValueObjects
 {
-    public string Value { get; }
-
-    public ParkingListName(string value)
+    public record PackingListName
     {
-        if (string.IsNullOrEmpty(value))
+        public string Value { get; }
+
+        public PackingListName(string value)
         {
-            throw new 
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                throw new EmptyParkingListNameException();
+            }
+            
+            Value = value;
         }
+
+        public static implicit operator string(PackingListName name)
+            => name.Value;
+        
+        public static implicit operator PackingListName(string name)
+            => new(name);
     }
 }

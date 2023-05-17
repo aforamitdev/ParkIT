@@ -18,11 +18,24 @@
       "ParkIT.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ParkIT.Shared.Abstractions": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ParkIT.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/ParkIT.Domain.dll": {}
+        }
+      },
+      "ParkIT.Shared.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ParkIT.Shared.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ParkIT.Shared.Abstractions.dll": {}
         }
       }
     }
@@ -37,6 +50,11 @@
       "type": "project",
       "path": "../ParkIT.Domain/ParkIT.Domain.csproj",
       "msbuildProject": "../ParkIT.Domain/ParkIT.Domain.csproj"
+    },
+    "ParkIT.Shared.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../ParkIT.Shared.Abstractions/ParkIT.Shared.Abstractions.csproj",
+      "msbuildProject": "../ParkIT.Shared.Abstractions/ParkIT.Shared.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {

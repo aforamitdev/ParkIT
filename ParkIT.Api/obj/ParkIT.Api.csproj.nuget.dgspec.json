@@ -152,6 +152,63 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/amit/RiderProjects/ParkIT/ParkIT.Shared.Abstractions/ParkIT.Shared.Abstractions.csproj": {
+                "projectPath": "/home/amit/RiderProjects/ParkIT/ParkIT.Shared.Abstractions/ParkIT.Shared.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/amit/RiderProjects/ParkIT/ParkIT.Shared.Abstractions/ParkIT.Shared.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/amit/RiderProjects/ParkIT/ParkIT.Shared.Abstractions/ParkIT.Shared.Abstractions.csproj",
+        "projectName": "ParkIT.Shared.Abstractions",
+        "projectPath": "/home/amit/RiderProjects/ParkIT/ParkIT.Shared.Abstractions/ParkIT.Shared.Abstractions.csproj",
+        "packagesPath": "/home/amit/.nuget/packages/",
+        "outputPath": "/home/amit/RiderProjects/ParkIT/ParkIT.Shared.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/amit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
